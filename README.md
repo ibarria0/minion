@@ -6,4 +6,4 @@ Route53 Zone creation
 Gandi Nameserver forwarding
 
 Sample Usage:
-    python website.py  --domain 'tastypanama.com' --key <AWS KEY> --secret <AWS SECRET> --gandi <GANDI API KEY>
+    python minion.py  --domain 'tastypanama.com' --key <AWS KEY> --secret <AWS SECRET> --gandi <GANDI API KEY>
