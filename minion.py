@@ -23,6 +23,7 @@ r53 = domain.connect_to_r53(args.key,args.secret)
 #create buckets
 buckets = bucket.create_buckets(s3,args.domain)
 bucket.setup_site(buckets)
+bucket.upload_comming_soon(buckets['apex'])
 
 #setup zone
 zone = domain.create_domain_zone(r53,args.domain)
